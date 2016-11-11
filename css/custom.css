@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+
+.alt-table-responsive {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+}
+
+.link-text, .btn, .navbar-nav>li>a {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
